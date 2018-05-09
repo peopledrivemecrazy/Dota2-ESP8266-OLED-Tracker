@@ -9,9 +9,9 @@
 ESP8266WebServer server(80);
 SSD1306  display(0x3c, D3, D4);
 
-const char* ssid = "Sange & Yasha";
-const char* password = "awesomegod321";
-String api = "8C60D359F6198526821AAB90DEFD0D95";
+const char* ssid = "Your WIFI";
+const char* password = "Your WIFI Password";
+String api = "Your API";
 String leagueid = "9870";
 String url = "http://api.steampowered.com/IEconDOTA2_570/GetTournamentPrizePool/v1/?key="+api+"&leagueid="+leagueid;
 String json;
