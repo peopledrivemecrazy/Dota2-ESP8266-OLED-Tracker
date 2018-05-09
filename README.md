@@ -2,6 +2,7 @@
 Tracks and displays prizepool for given league id which updates every 10 seconds.
 
 # Initial setup and instructions
+The code uses https://github.com/ThingPulse/esp8266-oled-ssd1306
 `This library uses dota2 web api` go to https://dev.dota2.com/showthread.php?t=58317 to obtain your api keys to obtain league listings you can use https://api.steampowered.com/IDOTA2Match_570/GetLeagueListing/v0001/?key=your_key 
 
 **Edit only this code block**
